@@ -2,7 +2,7 @@
 
 yum clean all
 > /etc/machine-id
-rm -f /etc/ssh/ssh_host
+rm -f /etc/ssh/ssh_host_*
 rm -rf /root/.ssh/
 rm -f /root/anaconda-ks.cfg
 rm -f /root/.bash_history
