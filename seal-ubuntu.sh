@@ -1,6 +1,6 @@
 #!/bin/bash
 
-yapt clean
+apt clean
 > /etc/machine-id
 rm -f /etc/ssh/ssh_host_*
 rm -rf /root/.ssh/
